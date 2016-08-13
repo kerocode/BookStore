@@ -1,0 +1,9 @@
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\bin\Debug\BookStore.Db.dacpac
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\bin\Debug\BookStore.Db.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\bin\Debug\BookStore.Db.pdb
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\obj\Debug\Model.xml
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\obj\Debug\refactor.xml
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\obj\Debug\postdeploy.sql
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\obj\Debug\predeploy.sql
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\obj\Debug\BookStore.Db.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Db\obj\Debug\BookStore.Db.pdb
