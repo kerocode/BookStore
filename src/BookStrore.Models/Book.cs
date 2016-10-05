@@ -8,9 +8,9 @@ namespace BookStrore.Models
 {
     class Book
     {
-        public virtual long IdBook { get; set; }
-        public virtual long IdDiscount { get; set; }
-        public virtual long IdCategory { get; set; }
+        public virtual long BookId { get; set; }
+        public virtual long DiscountId { get; set; }
+        public virtual long CategoryId { get; set; }
         public virtual string Name { get; set; }
         public virtual string Description { get; set; }
         public virtual DateTime PublishData { get; set; }
