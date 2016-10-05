@@ -3,5 +3,6 @@
   [BookId]   BIGINT NOT NULL
    constraint [FK_Order_UserId] references [dbo].[User]([UserId]),
   [Quantity] INT NOT NULL,
-  [Price] money NOT NULL
+  [Price] money NOT NULL,
+  PRIMARY KEY CLUSTERED ([OrderId] ASC)
 );
