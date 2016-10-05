@@ -3,5 +3,4 @@
     [Name] [nvarchar](50) NULL, 
     [Description] NVARCHAR(MAX) NULL,
 	PRIMARY KEY CLUSTERED ([CategoryId] ASC)
-	
 	 )

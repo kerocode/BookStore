@@ -8,7 +8,6 @@ namespace BookStrore.Models
 {
     class User
     {
-
         public virtual long UserId { get; set; }
         public virtual string FirstName { get; set; }
         public virtual string LastName { get; set; }
@@ -19,6 +18,5 @@ namespace BookStrore.Models
         public virtual DateTime UpdatedAt { get; set; }
         public virtual bool IsEnabled { get; set; }
         public virtual List<OrderList> OrderList { get; set; }
-    
-}
+    }
 }
