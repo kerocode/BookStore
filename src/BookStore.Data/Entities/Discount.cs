@@ -14,5 +14,6 @@ namespace BookStore.Data.Entities
         public virtual DateTime ValidUntil { get; set;}
         public virtual DateTime CreatedAt { get; set; }
         public virtual bool IsEnabled { get; set; }
+        public virtual byte[] Version { get; set; }
     }
 }
