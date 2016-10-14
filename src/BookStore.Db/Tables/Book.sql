@@ -7,5 +7,6 @@
     [CreatedAt] DATETIME2 NOT NULL, 
     [Price] DECIMAL NOT NULL, 
     [IsEnabled] BIT NOT NULL,
+	
 	PRIMARY KEY CLUSTERED ([BookId] ASC)
 )

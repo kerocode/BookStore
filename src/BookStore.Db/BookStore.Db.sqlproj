@@ -61,10 +61,9 @@
     <Folder Include="Tables" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Scripts\ReferenceData.sql" />
     <None Include="Tables\Order.sql" />
-    <None Include="Tables\OrderList.sql" />
     <None Include="Tables\Discount.sql" />
+    <None Include="Scripts\TestData.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Tables\Book.sql" />

@@ -10,6 +10,7 @@ namespace BookStrore.Models
     {
 
         public  long DiscountId { get; set; }
+        public  IList <Book> books { get; set; }
         public  string Name { get; set; }
         public  string Description { get; set; }
         public  DateTime ValidUntil { get; set; }

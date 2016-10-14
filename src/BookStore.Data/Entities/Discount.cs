@@ -8,7 +8,8 @@ namespace BookStore.Data.Entities
 {
      public class Discount
     {
-        public virtual long IdDiscount { get; set; }
+        public virtual long DiscountId { get; set; }
+        public virtual IList<Book> books { get; set; }
         public virtual string Name { get; set; }
         public virtual string Description { get; set; }
         public virtual DateTime ValidUntil { get; set;}
