@@ -9,10 +9,9 @@ namespace BookStrore.Models
     class Order
     {
         private readonly IList<Book> _books = new List<Book>();
-        public virtual long IdOrder { get; set; }
-        public virtual long IdOrderList { get; set; }
-        public virtual IList<Book> Books { get { return _books; } }
-        public virtual decimal Price { get; set; }
-        public virtual int Quantity { get; set; }
+        public  long OrderId { get; set; }
+        public  IList<Book> Books { get { return _books; } }
+        public  decimal Price { get; set; }
+        public  int Quantity { get; set; }
     }
 }

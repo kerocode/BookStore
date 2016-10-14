@@ -8,14 +8,14 @@ namespace BookStrore.Models
 {
     class Book
     {
-        public virtual long BookId { get; set; }
-        public virtual long DiscountId { get; set; }
-        public virtual long CategoryId { get; set; }
-        public virtual string Name { get; set; }
-        public virtual string Description { get; set; }
-        public virtual DateTime PublishData { get; set; }
-        public virtual DateTime CreatedAt { get; set; }
-        public virtual decimal Price { get; set; }
-        public virtual bool IsEnabled { get; set; }
+        public  long BookId { get; set; }
+        public  long? DiscountId { get; set; }
+        public  Category Category { get; set; }
+        public  string Name { get; set; }
+        public  string Description { get; set; }
+        public  DateTime? PublishData { get; set; }
+        public  DateTime? CreatedAt { get; set; }
+        public  decimal Price { get; set; }
+        public  bool IsEnabled { get; set; }
     }
 }

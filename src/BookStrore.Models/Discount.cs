@@ -8,11 +8,12 @@ namespace BookStrore.Models
 {
     class Discount
     {
-        public virtual long IdDiscount { get; set; }
-        public virtual string Name { get; set; }
-        public virtual string Description { get; set; }
-        public virtual DateTime ValidUntil { get; set; }
-        public virtual DateTime CreatedAt { get; set; }
-        public virtual bool IsEnabled { get; set; }
+
+        public  long DiscountId { get; set; }
+        public  string Name { get; set; }
+        public  string Description { get; set; }
+        public  DateTime ValidUntil { get; set; }
+        public  DateTime? CreatedAt { get; set; }
+        public  bool IsEnabled { get; set; }
     }
 }
