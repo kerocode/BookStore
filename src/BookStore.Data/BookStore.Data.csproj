@@ -43,6 +43,7 @@
     <Compile Include="Entities\Book.cs" />
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\Discount.cs" />
+    <Compile Include="Entities\IVersionedEntity.cs" />
     <Compile Include="Entities\Order.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

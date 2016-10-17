@@ -10,3 +10,4 @@
     [IsEnabled] BIT NOT NULL, 
     CONSTRAINT [PK_User] PRIMARY KEY ([UserId]) );
  
+ GO

@@ -1,4 +1,5 @@
-﻿CREATE TABLE [dbo].[Discount](
+﻿CREATE TABLE [dbo].[Discount]
+(
 	[DiscountId] BIGINT IDENTITY (1,1) NOT NULL,
 	[BookId]  BIGINT NOT NULL,
 	[Name] NVARCHAR(100) NOT NULL, 
