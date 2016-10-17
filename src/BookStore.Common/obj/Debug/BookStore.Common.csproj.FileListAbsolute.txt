@@ -15,3 +15,13 @@ C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\NHibernate.xml
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\Ninject.xml
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\Ninject.Web.Common.xml
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\BookStrore.Models.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\Newtonsoft.Json.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\System.Web.Http.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\System.Web.Http.WebHost.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\BookStrore.Models.pdb
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\Newtonsoft.Json.xml
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\System.Web.Http.xml
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\System.Web.Http.WebHost.xml

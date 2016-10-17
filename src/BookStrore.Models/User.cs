@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookStrore.Models
+namespace BookStore.Models
 {
-    class User
+    public class User
     {
         public  long UserId { get; set; }
         public  string FirstName { get; set; }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookStrore.Models
+namespace BookStore.Models
 {
-    class Order
+    public class Order
     {
         private readonly IList<Book> _books = new List<Book>();
         public  long OrderId { get; set; }

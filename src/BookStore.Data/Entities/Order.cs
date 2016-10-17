@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookStore.Data.Entities
 {
-    public class Order
+    public class Order : IVersionedEntity
     {
         private readonly IList<Book> _books = new List<Book>();
         public virtual long OrderId { get; set;}

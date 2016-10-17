@@ -123,6 +123,8 @@
   <ItemGroup>
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\V1\OrderController.cs" />
+    <Compile Include="Controllers\V2\OrderController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -139,8 +141,21 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookStore.Common\BookStore.Common.csproj">
+      <Project>{75e02045-875b-4752-a5b9-7b8e926d43b1}</Project>
+      <Name>BookStore.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookStore.Data\BookStore.Data.csproj">
+      <Project>{643F900F-5DF1-4E25-BD7C-4442678AA9BF}</Project>
+      <Name>BookStore.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookStrore.Models\BookStore.Models.csproj">
+      <Project>{35453519-afb2-4665-be2f-82d444b0f5bc}</Project>
+      <Name>BookStore.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

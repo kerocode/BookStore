@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookStrore.Models
+namespace BookStore.Models
 {
-    class Category
+    public class Category
     {
 
         public  long CategoryId { get; set; }

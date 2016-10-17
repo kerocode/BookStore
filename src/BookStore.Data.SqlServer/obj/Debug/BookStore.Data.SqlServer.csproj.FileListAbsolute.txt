@@ -10,3 +10,5 @@ C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\b
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\obj\Debug\BookStore.Data.SqlServer.csprojResolveAssemblyReference.cache
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\obj\Debug\BookStore.Data.SqlServer.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\obj\Debug\BookStore.Data.SqlServer.pdb
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.pdb

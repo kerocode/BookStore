@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BookStore.Data.Entities
 {
-    public class Category
+    public class Category : IVersionedEntity
     {
         public virtual long CategoryId { get; set; }
         public virtual string Name { get; set;}

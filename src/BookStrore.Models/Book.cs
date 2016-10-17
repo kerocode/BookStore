@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BookStrore.Models
+namespace BookStore.Models
 {
-    class Book
+    public class Book
     {
         public  long BookId { get; set; }
         public  long? DiscountId { get; set; }
