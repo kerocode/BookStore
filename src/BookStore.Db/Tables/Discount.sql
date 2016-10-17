@@ -12,3 +12,4 @@
 	REFERENCES [dbo].[Book]([BookId]),
 	PRIMARY KEY CLUSTERED ([DiscountId] ASC)
 );
+GO
