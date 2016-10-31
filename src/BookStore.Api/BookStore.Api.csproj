@@ -121,6 +121,7 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\NinjectConfigurator.cs" />
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\V1\OrderController.cs" />
@@ -151,6 +152,10 @@
     <ProjectReference Include="..\BookStore.Data\BookStore.Data.csproj">
       <Project>{643F900F-5DF1-4E25-BD7C-4442678AA9BF}</Project>
       <Name>BookStore.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookStore.Web.Common\BookStore.Web.Common.csproj">
+      <Project>{453b9224-8aa0-4a43-bd84-5d7a3a292a84}</Project>
+      <Name>BookStore.Web.Common</Name>
     </ProjectReference>
     <ProjectReference Include="..\BookStrore.Models\BookStore.Models.csproj">
       <Project>{35453519-afb2-4665-be2f-82d444b0f5bc}</Project>

@@ -8,7 +8,7 @@ using System.Web.Http.Routing;
 
 namespace BookStore.Common.Routing
 {
-    class ApiVersionConstraint
+    class ApiVersionConstraint :IHttpRouteConstraint
     {
         public ApiVersionConstraint(string allowedVersion) { AllowedVersion = allowedVersion.ToLowerInvariant(); }
 
