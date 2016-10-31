@@ -15,11 +15,10 @@ namespace BookStore.Api.Controllers.V1
     {
         [Route("", Name = "AddOrderRoute")]
         [HttpPost]
-        public Order AddTask(HttpRequestMessage requestMessage, Order newOrder)
+        public Order AddOrder(HttpRequestMessage requestMessage, Order newOrder)
         {
             return new Order
             {
-                D = "In v1, newTask.Subject = " + newTask.Subject
             };
         }
     }
