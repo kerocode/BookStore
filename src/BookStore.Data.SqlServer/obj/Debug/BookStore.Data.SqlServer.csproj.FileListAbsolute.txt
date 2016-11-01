@@ -1,8 +1,10 @@
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.SqlServer.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.SqlServer.pdb
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\FluentNHibernate.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\Iesi.Collections.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\NHibernate.dll
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.pdb
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\FluentNHibernate.pdb
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\FluentNHibernate.xml
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\Iesi.Collections.xml
@@ -10,5 +12,3 @@ C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\b
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\obj\Debug\BookStore.Data.SqlServer.csprojResolveAssemblyReference.cache
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\obj\Debug\BookStore.Data.SqlServer.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\obj\Debug\BookStore.Data.SqlServer.pdb
-C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.dll
-C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.pdb

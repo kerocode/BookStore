@@ -3,11 +3,12 @@
 
 namespace BookStore.Api.App_Start
 {
+    using WebActivatorEx;
     using System;
     using System.Web;
-
+    using System.Web.Http;
+    using BookStore.Api;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
-
     using Ninject;
     using Ninject.Web.Common;
     using BookStore.Web.Common;
@@ -22,13 +23,9 @@ namespace BookStore.Api.App_Start
         {
             DynamicModuleUtility.RegisterModule(typeof(OnePerRequestHttpModule));
             DynamicModuleUtility.RegisterModule(typeof(NinjectHttpModule));
-            IKernel container = null;
-            Bootstrapper.Initialize(() => 
-            {
-                container = CreateKernel();
-                return container;
-            });
-            var resolver = new Web.Common.NinjectDependencyResolver(container);
+            IKernel container = null ;
+            bootstrapper.Initialize(CreateKernel);
+            var resolver = new NinjectDependencyResolver(container);
             GlobalConfiguration.Configuration.DependencyResolver = resolver;
         }
 
