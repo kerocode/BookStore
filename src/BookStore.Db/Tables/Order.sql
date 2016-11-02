@@ -6,6 +6,8 @@
 	 [UserId] BIGINT NOT NULL
      CONSTRAINT [FK_Order_UserId]
      REFERENCES [dbo].[User]([UserId]),
+	 [OrderDate] DATETIME2 NOT NULL,
+	 [Total] MONEY NOT NULL
 );
 
 GO
