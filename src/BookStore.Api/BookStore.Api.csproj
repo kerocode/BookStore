@@ -149,6 +149,10 @@
       <Project>{75e02045-875b-4752-a5b9-7b8e926d43b1}</Project>
       <Name>BookStore.Common</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BookStore.Data.SqlServer\BookStore.Data.SqlServer.csproj">
+      <Project>{b0138500-a902-4fad-bdbf-c1108832fed9}</Project>
+      <Name>BookStore.Data.SqlServer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BookStore.Data\BookStore.Data.csproj">
       <Project>{643F900F-5DF1-4E25-BD7C-4442678AA9BF}</Project>
       <Name>BookStore.Data</Name>
