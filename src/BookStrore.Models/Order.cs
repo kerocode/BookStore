@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookStrore.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,10 @@ namespace BookStore.Models
 {
     public class Order
     {
-        private readonly IList<Book> _books = new List<Book>();
         public  long OrderId { get; set; }
-        public  IList<Book> Books { get { return _books; } }
-        public  decimal Price { get; set; }
+        public  IList<OrderItem> OrderItem { get; set; }
+        public DateTime OrderDate { get; set; }
+        public  decimal Total { get; set; }
         public  int Quantity { get; set; }
     }
 }

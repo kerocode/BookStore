@@ -10,8 +10,10 @@ namespace BookStore.Data.Entities
     {
        
         public virtual long OrderId { get; set;}
-        public virtual long OrderItemId { get; set; }
+        public virtual IList<OrderItem> OrderItems { get; set; }
         public virtual long UserId { get; set; }
+        public virtual DateTime OrderDate { get; set; }
+        public virtual int Quantity { get; set; }
         public virtual decimal Total { get; set; }
         public virtual byte[] Version { get; set; }
 

@@ -5,9 +5,8 @@
      [OrderItemId] BIGINT NOT NULL
      CONSTRAINT [FK_Order_OrderItemId]
      REFERENCES [dbo].[OrderItem]([OrderItemId]),
-	 [UserId] BIGINT NOT NULL
-     CONSTRAINT [FK_Order_UserId]
-     REFERENCES [dbo].[User]([UserId]),
+	
+	 [Quantity] INT NOT NULL,
 	 [OrderDate] DATETIME2 (7) NOT NULL,
 	 [Total] MONEY NOT NULL,
 	 [ts]        rowversion NOT NULL,

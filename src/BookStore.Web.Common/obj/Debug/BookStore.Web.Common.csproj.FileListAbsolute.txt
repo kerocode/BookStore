@@ -1,0 +1,1 @@
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Web.Common\obj\Debug\BookStore.Web.Common.csprojResolveAssemblyReference.cache

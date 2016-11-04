@@ -2,3 +2,4 @@ C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data\bin\Debug\B
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data\bin\Debug\BookStore.Data.pdb
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data\obj\Debug\BookStore.Data.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data\obj\Debug\BookStore.Data.pdb
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data\obj\Debug\BookStore.Data.csprojResolveAssemblyReference.cache

@@ -2,3 +2,4 @@ C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStrore.Models\bin\Debu
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStrore.Models\bin\Debug\BookStrore.Models.pdb
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStrore.Models\obj\Debug\BookStrore.Models.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStrore.Models\obj\Debug\BookStrore.Models.pdb
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStrore.Models\obj\Debug\BookStore.Models.csprojResolveAssemblyReference.cache

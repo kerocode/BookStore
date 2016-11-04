@@ -2,7 +2,9 @@
 (
 	 [OrderItemId] BIGINT IDENTITY (1, 1) NOT NULL
      PRIMARY KEY CLUSTERED ([OrderItemId] ASC),
-	 
+	  [UserId] BIGINT NOT NULL
+     CONSTRAINT [FK_Order_UserId]
+     REFERENCES [dbo].[User]([UserId]),
      [OrderId] BIGINT NOT NULL,
      FOREIGN KEY ([OrderId]) REFERENCES [dbo].[Order]([OrderId]),
 
