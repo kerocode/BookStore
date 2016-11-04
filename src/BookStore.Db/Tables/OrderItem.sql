@@ -11,7 +11,8 @@
   
     [Quantity] INT NOT NULL,
   
-    [Price] money NOT NULL
+    [Price] money NOT NULL,
+	[ts]        rowversion NOT NULL,
 );
 
 GO

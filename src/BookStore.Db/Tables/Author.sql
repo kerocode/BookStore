@@ -5,6 +5,7 @@
 	[LastName] NVARCHAR(100) NOT NULL, 
     [BookId] BIGINT NOT NULL,
     FOREIGN KEY ([BookId])  REFERENCES [dbo].[Book]([BookId]),
+	[ts]        rowversion NOT NULL,
 	PRIMARY KEY CLUSTERED ([AuthorId] ASC)
 );
 GO

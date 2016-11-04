@@ -7,10 +7,11 @@
 	[Percentage] decimal NOT NULL,
     [ValidUntil] DATETIME2 NOT NULL, 
     [CreatedAt] DATETIME2 NOT NULL, 
-	[UpdatedAt] DATETIME2 NOT NULL, 
+	[UpdatedAt] DATETIME2 (7) NOT NULL, 
     [IsEnabled] BIT NOT NULL,
 	CONSTRAINT [FK_Order_BookId] FOREIGN KEY (BookId)
 	REFERENCES [dbo].[Book]([BookId]),
+    [ts]        rowversion NOT NULL,
 	PRIMARY KEY CLUSTERED ([DiscountId] ASC)
 );
 GO

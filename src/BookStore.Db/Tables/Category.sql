@@ -5,6 +5,7 @@
 	REFERENCES [dbo].[Book]([BookId]),
     [Name] [nvarchar](50) NULL, 
     [Description] NVARCHAR(MAX) NULL,
+	[ts]        rowversion NOT NULL,
 	PRIMARY KEY CLUSTERED ([CategoryId] ASC)
 	 )
 Go
