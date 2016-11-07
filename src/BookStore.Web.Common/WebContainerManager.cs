@@ -6,6 +6,7 @@ using System.Web.Http.Dependencies;
 
 namespace BookStore.Web.Common
 {
+
     public class WebContainerManager
     {
         public static IDependencyResolver GetDependencyResolver()
