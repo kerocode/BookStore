@@ -1,3 +1,4 @@
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\BookStore.Common.dll.config
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\BookStore.Common.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\BookStore.Common.pdb
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Common\bin\Debug\AutoMapper.dll

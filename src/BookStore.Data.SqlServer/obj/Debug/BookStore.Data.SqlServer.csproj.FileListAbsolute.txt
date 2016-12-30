@@ -1,3 +1,4 @@
+C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.SqlServer.dll.config
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.SqlServer.dll
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.SqlServer.pdb
 C:\Users\keroles.hakem\Documents\GitHub\BookStore\src\BookStore.Data.SqlServer\bin\Debug\BookStore.Data.dll

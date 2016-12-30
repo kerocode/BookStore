@@ -14,10 +14,16 @@ EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "BookStore.Db", "BookStore.Db\BookStore.Db.sqlproj", "{A6D48738-E32D-4FAE-B1D5-355FC2D5003F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api", "BookStore.Api\BookStore.Api.csproj", "{B329D378-9479-428D-BA1C-98B8004842AD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A6D48738-E32D-4FAE-B1D5-355FC2D5003F} = {A6D48738-E32D-4FAE-B1D5-355FC2D5003F}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Api.Tests", "BookStore.Api.Tests\BookStore.Api.Tests.csproj", "{A1B92654-7ECA-4B38-8685-4760A6CA2818}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Web.Common", "BookStore.Web.Common\BookStore.Web.Common.csproj", "{35C4CC03-EED2-439C-A036-2ED51BE892EC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{35453519-AFB2-4665-BE2F-82D444B0F5BC} = {35453519-AFB2-4665-BE2F-82D444B0F5BC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
