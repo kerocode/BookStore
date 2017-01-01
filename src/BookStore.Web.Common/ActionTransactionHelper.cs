@@ -36,7 +36,8 @@ namespace BookStore.Web.Common
 
             if (filterContext.Exception == null)
             {
-                session.Flush(); session.Transaction.Commit();
+                session.Flush();
+                session.Transaction.Commit();
             }
             else
             {
