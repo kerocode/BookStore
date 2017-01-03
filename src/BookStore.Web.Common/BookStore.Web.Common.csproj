@@ -85,6 +85,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionTransactionHelper.cs" />
+    <Compile Include="ErrorHandling\GlobalExceptionHandler.cs" />
+    <Compile Include="ErrorHandling\SimpleErrorResult.cs" />
     <Compile Include="ErrorHandling\SimpleExceptionLogger.cs" />
     <Compile Include="IActionTransactionHelper.cs" />
     <Compile Include="NamespaceHttpControllerSelector.cs" />
@@ -104,6 +106,10 @@
     <ProjectReference Include="..\BookStore.Common\BookStore.Common.csproj">
       <Project>{75e02045-875b-4752-a5b9-7b8e926d43b1}</Project>
       <Name>BookStore.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookStore.Data\BookStore.Data.csproj">
+      <Project>{643f900f-5df1-4e25-bd7c-4442678aa9bf}</Project>
+      <Name>BookStore.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\BookStore.Db\BookStore.Db.sqlproj">
       <Project>{a6d48738-e32d-4fae-b1d5-355fc2d5003f}</Project>
