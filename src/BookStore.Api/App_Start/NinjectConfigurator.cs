@@ -14,6 +14,8 @@ using Ninject.Activation;
 using Ninject.Web.Common;
 using BookStore.Data.SqlServer.Mapping;
 using BookStore.Web.Common;
+using BookStore.Web.Common.Security;
+using BookStore.Common.Security;
 
 namespace BookStore.Api.App_Start
 {
@@ -25,6 +27,7 @@ namespace BookStore.Api.App_Start
         {
             ConfigureLog4net(container);
             ConfigureNHibernate(container);
+            ConfigureUserSession(container);
             container.Bind<IDateTime>().To<DateTimeAdapter>().InSingletonScope();
         }
 
@@ -46,6 +49,12 @@ namespace BookStore.Api.App_Start
             container.Bind<ISessionFactory>().ToConstant(sessionFactory);
             container.Bind<ISession>().ToMethod(CreateSession).InRequestScope();
             container.Bind<IActionTransactionHelper>().To<ActionTransactionHelper>().InRequestScope();
+        }
+        private void ConfigureUserSession(IKernel container)
+        {
+            var userSession = new UserSession();
+            container.Bind<IUserSession>().ToConstant(userSession).InSingletonScope();
+            container.Bind<IWebUserSession>().ToConstant(userSession).InSingletonScope();
         }
 
         private ISession CreateSession(IContext context)

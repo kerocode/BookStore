@@ -62,17 +62,27 @@
     <Compile Include="Mapping\UserMapping.cs" />
     <Compile Include="Mapping\VersionedClassMap.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueryProcessors\AddOrderQueryProcessor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BookStore.Common\BookStore.Common.csproj">
+      <Project>{75e02045-875b-4752-a5b9-7b8e926d43b1}</Project>
+      <Name>BookStore.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BookStore.Data\BookStore.Data.csproj">
       <Project>{643f900f-5df1-4e25-bd7c-4442678aa9bf}</Project>
       <Name>BookStore.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\BookStore.Web.Common\BookStore.Web.Common.csproj">
+      <Project>{35c4cc03-eed2-439c-a036-2ed51be892ec}</Project>
+      <Name>BookStore.Web.Common</Name>
+    </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
